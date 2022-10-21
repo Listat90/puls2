@@ -20,5 +20,20 @@
             
         }
     }
+    &__phone{
+        display: block ;
+        font-size: 18px;
+        font-weight: 700;
+        color: #ffffff;
+        &:hover{
+            color:#ffffff;
+            text-decoration: none;
+        }
+        &__contacts {
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+        }
+    }
 
 }
