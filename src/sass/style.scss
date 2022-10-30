@@ -9,6 +9,7 @@
 }
 
 .container {
+    position:relative;
     max-width: 950px;
     margin: 0 auto;
 }
@@ -19,4 +20,5 @@
 @import 'blocks/title';
 @import 'base/media';
 @import 'blocks/consultation';
-@import 'blocks/forms'
+@import 'blocks/forms';
+@import 'blocks/carousel';
